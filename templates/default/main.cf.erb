@@ -66,3 +66,4 @@ recipient_canonical_maps = <%= node['postfix']['recipient_canonical_maps'] %>
 <% unless node['postfix']['canonical_maps'].nil? -%>
 canonical_maps = <%= node['postfix']['canonical_maps'] %>
 <% end -%>
+home_mailbox = Maildir/
